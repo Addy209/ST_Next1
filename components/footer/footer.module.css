@@ -1,0 +1,14 @@
+#footer {
+  height: 25vh;
+  background-color: black;
+  color: white;
+  display: grid;
+  align-items: center;
+  margin-top: 18px;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

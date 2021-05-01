@@ -1,0 +1,19 @@
+#icon {
+  font-size: xx-large;
+  opacity: 0.6;
+}
+
+#social {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#icon:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 750px) {
+  #social {
+    justify-content: center;
+  }
+}

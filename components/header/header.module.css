@@ -1,0 +1,76 @@
+
+
+#nav{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    display: flex;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#li{
+    margin:10px;
+    padding:10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+#logo{
+    font-family: 'Kaushan Script', cursive;
+}
+
+#span1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#icon1{
+font-size:large;
+}
+
+#a{
+    text-decoration:none;
+}
+
+#ul>#li>#a:hover:nth-child(1){
+    color:#155799;
+}
+#ul>#li>#a:hover:nth-child(2){
+    color:#EB5757;
+}
+#ul>#li>#a:hover:nth-child(3){
+    color:#FF8235;
+}
+#ul>#li>#a:hover:nth-child(4){
+    color:#159957;
+}
+
+#car_text{
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:7vh;
+    text-align: center;
+    
+}
+
+.img{
+    object-fit:cover;
+    object-position: 50% 40%;
+}
+
+.car_div{
+    background: linear-gradient(161deg, rgba(1,1,1,0.7) 0%, rgba(1, 1, 1, 0.7) 100%, rgba(1,1,1,0.7) 23%);
+}
+
+#caption{
+    background:linear-gradient(161deg, rgba(1,1,1,0.5) 0%, rgba(1, 1, 1, 0.5) 100%, rgba(1,1,1,0.5) 23%);
+}
